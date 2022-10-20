@@ -17,7 +17,7 @@ public class Main {
            // dataBaseControler.insertarAnimal(animal,connection);
             System.out.println(dataBaseControler.getAnimal(1,connection));
         } catch (SQLException e) {
-            System.out.println(e.getLocalizedMessage());
+            e.printStackTrace();
         }
     }
 }
